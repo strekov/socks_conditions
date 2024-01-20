@@ -22,7 +22,8 @@
 2. В настройках удалённого PAC указать ссылку на PAC файл
 3. У системного прокси сервера включить режим работы - Сценарий настройки (PAC)
 
-Ссылка на PAC файл: https://raw.githubusercontent.com/An-Eugene/ss_conditions/main/ss_conditions.pac
+Ссылка на PAC файл: https://raw.githubusercontent.com/strekov/socks_conditions/main/ss_conditions.pac
+
 
 
 ## Shadowsocks для Linux
