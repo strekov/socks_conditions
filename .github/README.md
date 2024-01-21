@@ -43,7 +43,7 @@ TODO: дописать и отладить работу SS на Linux
 2. В настройках сервера указать маршрут - Пользовательские правила
 3. Зайти в пользовательские правила -> добавить правило -> URL конфигурации и указать ссылку на ACL файл
 
-Ссылка на ACL файл: https://raw.githubusercontent.com/An-Eugene/ss_conditions/main/ss_conditions.acl
+Ссылка на ACL файл: https://raw.githubusercontent.com/strekov/socks_conditions/main/ss_conditions.acl
 
 
 ## Клиент ShadowSocks для iOS
