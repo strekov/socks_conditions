@@ -1,6 +1,5 @@
 var __BLOCKEDSITES__ = [
   "*.ua",
-  "*speedtest.net",
   "*.10minutemail.com",
   "*.10minutemail.net",
   "*.1lordserials.info",
@@ -32,6 +31,7 @@ var __BLOCKEDSITES__ = [
   "*.chatgpt.com",
   "*.cheapsms.ru",
   "*.cherta.media",
+  "*.cisco.com",
   "*.claude.ai",
   "*.colta.ru",
   "*.copilot.cx",
@@ -212,6 +212,7 @@ var __BLOCKEDSITES__ = [
   "*.sobytiya.info",
   "*.solopress.com",
   "*.soundcloud.com",
+  "*speedtest.net",
   "*.spektr.press",
   "*.spotify.com",
   "*.sputnikipogrom.com",
