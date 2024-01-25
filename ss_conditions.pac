@@ -212,10 +212,11 @@ var __BLOCKEDSITES__ = [
   "*.sobytiya.info",
   "*.solopress.com",
   "*.soundcloud.com",
-  "*speedtest.net",
+  "speedtest.net",
   "*.spektr.press",
   "*.spotify.com",
   "*.sputnikipogrom.com",
+  "squidguard.org"
   "*.strana.news",
   "*.strana.today",
   "*.suicidegirls.com",
