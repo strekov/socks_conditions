@@ -1,6 +1,6 @@
 var __BLOCKEDSITES__ = [
   "*.ua",
-  "checkadblock.ru",
+  "*.checkadblock.ru",
   "*.10minutemail.com",
   "*.10minutemail.net",
   "*.1lordserials.info",
