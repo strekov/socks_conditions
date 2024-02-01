@@ -1,6 +1,5 @@
 var __BLOCKEDSITES__ = [
   "*.ua",
-  "*checkadblock.ru",
   "*.10minutemail.com",
   "*.10minutemail.net",
   "*.1lordserials.info",
@@ -32,7 +31,6 @@ var __BLOCKEDSITES__ = [
   "*.chatgpt.com",
   "*.cheapsms.ru",
   "*.cherta.media",
-  "*.cisco.com",
   "*.claude.ai",
   "*.colta.ru",
   "*.copilot.cx",
@@ -213,11 +211,9 @@ var __BLOCKEDSITES__ = [
   "*.sobytiya.info",
   "*.solopress.com",
   "*.soundcloud.com",
-  "speedtest.net",
   "*.spektr.press",
   "*.spotify.com",
   "*.sputnikipogrom.com",
-  "squidguard.org"
   "*.strana.news",
   "*.strana.today",
   "*.suicidegirls.com",
@@ -308,10 +304,10 @@ var FindProxyForURL = function(init, profiles) {
         return "DIRECT";
     },
     "+proxy": function(url, host, scheme) {
-        "use strict";
-        if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host) || /^192\.168\.[0-9]{1-3}\.[0-9]{1-3}$/.test(host) || /^10\.[0-9]{1-3}\.[0-9]{1-3}\.[0-9]{1-3}$/.test(host)) {
-            return direct;
-        }
-        return proxy;
+    "use strict";
+    if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host) || /^192\.168\.[0-9]{1-3}\.[0-9]{1-3}$/.test(host) || /^10\.[0-9]{1-3}\.[0-9]{1-3}\.[0-9]{1-3}$/.test(host)) {
+        return direct;
+    }
+    return proxy;
     }
 });
