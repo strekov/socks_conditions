@@ -31,6 +31,7 @@ var __BLOCKEDSITES__ = [
   "*.chatgpt.com",
   "*.cheapsms.ru",
   "*.cherta.media",
+  "*.cisco.com",
   "*.claude.ai",
   "*.colta.ru",
   "*.copilot.cx",
